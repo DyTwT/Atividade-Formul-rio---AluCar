@@ -37,3 +37,13 @@ h1, h2 {
   max-width: 800px; /* largura máxima */
   margin: 0 auto; /* centraliza horizontalmente */
 }
+
+h3 {
+  margin: 0; /* remove margens */
+}
+
+/*Seção Conteúdo*/
+.sobre{
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
