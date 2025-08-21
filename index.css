@@ -1,21 +1,39 @@
-.capa {
-    position: relative;
-    width: 100%;
-    height: 400px; /* altura da capa */
-    background: url("capa.jpg") no-repeat center center;
-    background-size: cover;
-  }
+/*Topo*/
+.nome_empresa {
+  border-bottom: 1px solid #d5d5d5;
+}
+.nome_empresa p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.alucar {
+  color: #1b1b1b; /* cor do texto */
+  font-family: 'Arial', sans-serif; /* fonte do texto */
+  width: 100%;
+  max-width: 800px; /* largura máxima */
+  margin: 0 auto; /* centraliza horizontalmente */
+}
 
-  /* Faixa preta translúcida */
-.faixa-texto {
-    position: absolute;
-    top: 0;         /* começa do topo */
-    left: 0;
-    width: 95.8%;    /*largura */
-    background: rgba(27, 27, 27, 0.6); /* azul escuro com transparência */
-    color: white;
-    padding: 15px 40px;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: right;
-  }
+h1, h2 {
+  color: #fcfcfc; /* cor do texto */
+  margin: 0; /* remove margens */
+}
+
+/*Capa*/
+.capa{
+  min-height: 500px;
+  background-image: url(capa.jpg);
+  background-size: cover;
+}
+.capa_conteudo {
+  text-align: right;
+  padding: 50px 20px;
+  background: #00000085; /* fundo preto com opacidade */
+}
+.alucar{
+  width: 100%;
+  max-width: 800px; /* largura máxima */
+  margin: 0 auto; /* centraliza horizontalmente */
+}
