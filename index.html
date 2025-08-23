@@ -45,26 +45,65 @@
     
         <!--Formulário-->
         <form method="post" action="https://www.devmedia.com.br/">
-            <fieldset>
-                
+            
+            <fieldset class="conteudo"> <!--Dados Pessoais-->
                 <!--Grupo de campos separados-->
                 <legend>Dados Pessoais</legend>
-                <div class="grupo_campo1"> 
+                <div class="grupo_campo"> 
                     <label>Nome</label>
                     <input type="text" name="nome" placeholder="Digite seu nome" required>                    
                 </div>
-                <div class="grupo_campo1">
+                <div class="grupo_campo">
                     <label>Data de Nascimento</label>
                     <input type="date" name="data_nascimento" required>
                 </div>
-                <div class="grupo_campo1">
+                <div class="grupo_campo">
                     <label>Telefone</label>
                     <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
                 </div>
             </fieldset>
+            <fieldset class="conteudo"> <!--CNH-->
+                <!--Grupo de campos separados-->
+                <legend>CNH</legend>
+                <div class="grupo_campo">
+                    <label>Número do Registro</label>
+                    <input type="number" name="numero_registro" placeholder="Informe o número da sua CNH" required>
+                </div>
+                <div class="grupo_campo">
+                    <label>Validade</label>
+                    <input type="date" name="validade" required>
+                </div>
+            </fieldset>
+            <fieldset class="conteudo"> <!--Carro-->
+                <!--Grupo de campos separados-->
+                <legend>Carro</legend>
+                <div class="grupo_campo">
+                    <label>Modelo do Carro</label>
+                    <select name="carro" required>
+                        <option value="">Escolha um carro</option>
+                        <optgroup label="Volkswagen">
+                            <option value="gol">Gol</option>
+                            <option value="golf">Golf</option>
+                            <option value="fox">Fox</option>
+                        </optgroup>
+                        <optgroup label="Fiat">
+                            <option value="uno">Uno</option>
+                            <option value="siena">Siena</option>
+                            <option value="palio">Palio</option>
+                        </optgroup>
+                        <optgroup label="Nissan">
+                            <option value="frontier">Frontier</option>
+                            <option value="versa">Versa</option>
+                            <option value="skyline">Skyline GT-R</option>
+                    </select>
+                </div>
+            </fieldset>
+            <button type="submit">Enviar Dados</button>
         </form>
     </section>
 </main>
+<footer>
+    <p>Copyright 2022 - AluCar</p>
+</footer>
 </body>
 </html>
-
