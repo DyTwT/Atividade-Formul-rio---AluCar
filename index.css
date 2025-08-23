@@ -70,3 +70,56 @@ h3 {
   margin: 0 auto; /* centraliza horizontalmente */
   color: #fff;
 }
+
+  /*Formulário*/
+  .grupo_campo {
+    display: flex;
+    flex-direction: column;
+  }
+  .grupo_campo input, .grupo_campo1 select {
+    margin: 12px 0;
+    height: 25px;
+  }
+  .grupo_campo input, .grupo_campo select {
+    margin: 12px 0;
+    height: 25px;
+  }
+  .conteudo fieldset {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudo button {
+    width: 100%;
+    height: 32px;
+    background: #d92121;
+    border: none;
+    color: #fff;
+  }
+
+  /*Rodapé*/
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f8f8f8;
+  }
+  footer p {
+    color: #d92121;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  /*Ajuste para dispositivos móveis*/
+  @media (max-width: 815px) {
+    .imagem_carro {
+      width: 100%;
+    }
+  }
+}
