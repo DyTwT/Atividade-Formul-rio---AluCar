@@ -47,6 +47,7 @@ h3 {
   width: 250px;
   height: 180px;
   object-fit: contain;
+  transition: background 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease, transform 0.3s ease; /* Adiciona transição suave */
 }
 .sobre span {
   border-left: 1px solid;
@@ -123,3 +124,4 @@ h3 {
     }
   }
 }
+
