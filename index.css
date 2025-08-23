@@ -24,6 +24,7 @@ h1, h2 {
 
 /*Capa*/
 .capa{
+  width: 100%;
   min-height: 500px;
   background-image: url(capa.jpg);
   background-size: cover;
@@ -48,6 +49,12 @@ h3 {
   height: 180px;
   object-fit: contain;
   transition: background 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease, transform 0.3s ease; /* Adiciona transição suave */
+  cursor: pointer; /* muda o cursor para indicar interação */
+}
+.imagem_carro:hover {
+  transform: scale(1.05); /* aumenta levemente a imagem */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* adiciona uma sombra */
+  border-radius: 8px; /* opcional: arredonda os cantos */
 }
 .sobre span {
   border-left: 1px solid;
@@ -123,5 +130,4 @@ h3 {
       width: 100%;
     }
   }
-
-
+}
